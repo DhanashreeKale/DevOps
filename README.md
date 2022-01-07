@@ -1,1 +1,4 @@
-# DevOps
+### DevOps
+```
+DevOps related practicals
+```
