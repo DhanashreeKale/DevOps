@@ -1,0 +1,8 @@
+FROM mysql:latest
+WORKDIR / DevOps
+ENV MYSQL_ROOT_PASSWORD=pucsd
+ENV MYSQL_USER=pucsd
+ENV MYSQL_PASSWORD=pucsd
+ENV MYSQL_DATABASE=pucsdSudents
+
+COPY . .
